@@ -1,0 +1,32 @@
+tarea 02-js-I realizado por walterkisser2018@gmail.com
+Variables:Es un contenedor que contiene información a la que puedes acceder.
+Puedes pensar en una variable como una caja que contiene items, 
+una caja que puedes abrir y cerrar y a la que le puedes añadir cosas.
+Dicho de otra forma es como un archivero que contine diferentes cosas las cuales podemos abrir y sacar y cambiar cosas.
+
+string 
+es una cajita solo contiene letras o palabras. cual podemos abrir o sacar o cambiar esas letras o palabras.
+
+A menudo queremos poder volver a ejecutar bloques de código cuando estamos escribiendo programas,
+ sin tener que volver a escribir todo el bloque de código. Necesitamos una forma de agrupar el código 
+y darle un nombre, de manera que podamos llamarlo con ese nombre posteriormente, y a eso es a lo que llamamos una función
+dicho otra forma una funcion es llamada a un tarea o orden y 
+return cumple dos cosas 1- regresa un valor a quien le haya llamado
+                        2- finaliza la tarea.
+declaraciones if
+¿Qué es la sentencia if?
+El condicional if es un comando que nos permite ejecutar una secuencia de comandos
+ dependiendo de la condición especificada. Con la misma podemos controlar la ejecución 
+de un código en base a las necesidades establecidas por los condicionantes. 
+¿Qué es IF y para qué sirve?
+La sentencia condicional if se usa para tomar decisiones, 
+este evaluá básicamente una operación lógica, es decir una expresión que de como resultado True o False , 
+y ejecuta la pieza de código siguiente siempre y cuando el resultado sea verdadero.
+
+Dicho otra forma if es como decir si pasa esto cumple esto sino pasa lo otro(si se cumple la condicion muestra el resultado sin pasa esto.(otro resultado)).
+
+valores booleanos (true,false)
+
+Una valor booleano representa un valor de verdad; es decir, TRUE o FALSE. 
+Una expresión booleana o un predicado booleano puede generar un valor de desconocido, 
+que se representa mediante el valor nulo.
