@@ -1,0 +1,14 @@
+tarea 04-js-III
+En JavaScript, un arreglo es una manera de almacenar muchos valores 
+dentro de una sola variable. Los arreglos tienen indexación base 0, 
+lo que significa que el primer elemento de un arreglo se encuentra en array[0],
+y el último elemento de un arreglo de tamaño n se encuentra en array[n-1].
+
+En ocasiones, a los arrays se les llama vectores, matrices e incluso arreglos.
+No obstante, el término array es el más utilizado y es una palabra comúnmente
+aceptada en el entorno de la programación.
+
+Un array es una colección de variables, 
+que pueden ser todas del mismo tipo o cada una de un tipo diferente.
+
+Es como tener una caja que adentro puede tener mas cajitas diferentes contenidos o el mismo.tambien puede estar vacio.
