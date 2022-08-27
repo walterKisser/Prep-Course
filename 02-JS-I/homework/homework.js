@@ -140,7 +140,8 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num*num*num ;
+ /* return num*num*num ;*/
+  return Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
@@ -172,13 +173,21 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero===0){
+ /* if (numero===0){
     return false;
   }else if(numero>0){
     return "Es positivo";
   }else{
     return "Es negativo";
   }
+}*/
+if(numero>0){
+  return "es posiitivo"
+}else if (numero <0){
+  return "Es negativo"
+}else{
+  return false
+}
 }
 
 function agregarSimboloExclamacion(str) {
@@ -186,21 +195,29 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
 return str + "!";
+//otra forma seria return str.concat("!")
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + " " +apellido;
-  return combinado;
+  //una forma:
+  /*var combinado = nombre + " " +apellido;
+  return combinado;*/
+  //otra forma:
+  return nombre + " " + apellido;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + " "+nombre +"!"
+  /*return "Hola" + " "+nombre +"!"*/
+  //otra forma
+  return "Hola "+ nombre + "!";
+  //otra forma:
+  /*return "Hola".concat(nombre,"!"); */
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -214,6 +231,7 @@ function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   return lado *4;
+  //el perimetro es lado+lado+lado+lado es lo mismo decir lado*4
 }
 
 

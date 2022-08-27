@@ -1,19 +1,27 @@
 /*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+Lección 3: Tarea de posicionamiento con CSS. 
+Todo el trabajo debe hacerse en este archivo, 
+por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
-
+/*la # se usa para identilfacar el id selector*/
+/*ejemplo :#span{
+text-align: center;
+}*/
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#header {
+  text-align: center;
+}
 
 
 
