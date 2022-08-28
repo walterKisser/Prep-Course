@@ -1,4 +1,4 @@
-// No cambies los nombres de las funciones.
+ // No cambies los nombres de las funciones.
 
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
@@ -24,7 +24,10 @@ function agregarPropiedad (objeto, property) {
 objeto[property]=null;
 return objeto;
 }
-
+/*otra forma 
+objeto.property = null;
+return objeto;
+*/
 function invocarMetodo (objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
   // Invoca ese método

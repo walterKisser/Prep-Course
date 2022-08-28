@@ -5,12 +5,15 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-if (x>y){
-  return x;
-}else{
-return y;
+if (x===y){    //si x es igual a y son mismo tipo 
+  return x ||y;  //recordar que || se lee como "o"
+ }else if (x>y){
+  return x
+  }else{
+  return y;
+  }
 }
-}
+
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
@@ -114,6 +117,15 @@ function esEntero(numero) {
   // Tu código:
 return numero%1===0;
 }
+/*otra forma 
+if(numero===Math.floor(numero){
+  return true;
+  }else{
+  return false;
+  }
+  }
+})*/
+
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -131,11 +143,23 @@ return "buzz";
   return numero;
 }
 }*/
+/* otra forma
 if(numero % 15 === 0) return 'fizzbuzz';
   if(numero % 3 === 0) return 'fizz';
   if(numero % 5 === 0) return 'buzz';
   return numero;
+}*/
+if(numero %3===0 && numero %5===0){
+return "fizzbuzz";
+}else if(numero%3===0){
+return "fizz";
+}else if(numero%5===0){
+return "buzz";
+}else{
+  return numero;
 }
+}
+
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
@@ -184,6 +208,10 @@ if(valor === true){
   }
   return "Soy falso"
 }
+/*otra forma 
+if (valor ===true) retyrn "soy verdadero"
+if(valor===false) return "soy falso"
+  */
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
@@ -195,6 +223,13 @@ function tablaDelSeis(){
   }
   return arrayTablaDel6
 }
+/*otra forma
+var tabla6 =[];
+for(var i =0;i<11,i++){
+  array.push(i*6)
+  }
+  return array;
+}*/ 
 
 
 function tieneTresDigitos(numero){

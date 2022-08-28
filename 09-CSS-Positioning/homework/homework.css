@@ -12,35 +12,77 @@ text-align: center;
 }*/
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+display:block;
 text-align: center;
+visibility:hidden;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
 #header {
   text-align: center;
+}
+/* Acá va tu código */
+
+#ejercicioDos {
+  height: 50px;
+  text-align: center;
+  border: 1px solid purple;
 }
 
 
 
 /* Ejercicio 3: */
-
+#ejercicioTres {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 4: */
+#ejercicioCuatro{
+	position: relative;
+	top:-1460px;
+}
 
 /* Acá va tu código */
 
 
 
 /* Ejercicio 5: */
-
+#ejercicioCinco{
+	display:flex;
+	justify-content: space-evenly;
+	align-items:center;
+	flex-direction: row-reverse;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 6. */
+/*la respuesta es flex-direction: row-reverse; invierte al revez*/
+/*ejercicio 7*/
+
+#elementoUno {
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
+#elementoDos {
+  position: absolute;
+  top: 300px;
+  left: -3px;
+}#elementoTres {
+	position: absolute;
+  top: -3px;
+  left: -3px;
+}
+#elementoCuatro {
+position: absolute;
+  top: -3px;
+  left: 350px;
+}
