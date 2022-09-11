@@ -1,64 +1,107 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# HENRY CHALLENGE - JavaScript
 
-# Prep Course
+### Bienvenido al Henry Challenge sobre JavaScript para la carrera Full Stack Developer.
 
-#### Introducción
+<p style="color:#f92850; font-size: 16px; text-align:center;">¡ Por favor lee TODO este material con atención !</p>
 
-¡Hola! Bienvenido al Prep Course para la carrera de Desarrollo Web Full Stack
+## INTRODUCCION
 
-En este curso introductorio podrás aprender todo el contenido que luego será evaluado en el Henry Challenge, el último paso para ingresar a la carrera de Desarrollo Web Full Stack en Henry.
+El Henry Challenge es un desafío técnico donde evaluamos conceptos básicos sobre JavaScript.
+En esta instancia, buscamos asegurarnos que todos nuestros aplicantes  tengan una base de conocimientos mínimos necesarios para luego seguir aprendiendo temas nuevos.
 
-## ¿Qué es el Prep Course?
+Hay cosas puntuales que tal vez no vimos específicamente en el material del Prep Course, vas a tener que investigar un poquito por tu cuenta (Google es tu mejor amigo 🤗).
 
-El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera.
+>El Challenge debe resolverse de manera individual. Si te copias o recibes ayuda de compañeros, además de estar incumpliendo con las normas de Henry (lo que te dejaría afuera de la carrera), estarás perjudicándote a ti mismo, porque el primer día de clase estarías extremadamente perdido.
 
-#### ¿En qué consiste el Prep Course?
+¿Se puede volver a rendir el HC?    
+-   Si, el HC se puede rendir tantas veces como ustedes quieran! No hay límite de intentos.
 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Javascript, HTML y CSS. Todo el material se encuentra **aquí en la parte superior de la página**, iniciando por la sección de **"Intro"** y finalizando en la sección del **"Challenge"**.
+¿Qué hago una vez entregado el HC?
+- ¡A esperar! Los van a estar contactando en un plazo no mayor a una semana para confirmarles, tanto si quedaron, como si no lo hicieron.
 
-Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
 
-## ¿Qué es el Henry Challenge?
 
-Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claros es la clave de éxito para que puedas avanzar bien dentro de la carrera.
-El examen se realiza los días sábados cada dos semanas, previa inscripción en el siguiente link. Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge de este repositorio (prep.soyhenry.com/challenge).
+## PASOS PARA RESOLVER EL CHECKPOINT:
 
-## ¿Qué puedo hacer si tengo dudas?
+### 1. Clonar
 
-Contamos con dos herramientas de apoyo:
+Vas a recibir un enlace al repo que esta alojado en nuestro github
+`checkpoints-soyhenry` 
 
-**Slack:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
-Más adelante te explicaremos cómo usar la herramienta.
+Una vez que aceptes la invitacion al repo vas a poder clonar lo 
+>Es importante que no hagas Fork, los cambios subidos a un repo fork no seran validos.
 
-**Clases de apoyo en vivo:** de lunes a viernes hay un espacio en vivo via Zoom con estudiantes avanzados que se postulan para responder todas tus consultas.
+Para clonar el repo te recomendamos crear una nueva carpeta,  (asegurate de no utilizar la misma que el prep curse). Una vez clonado entrá a esa carpeta y ejecutá los siguientes comandos:
 
-#### Entonces, ¿qué debo hacer ahora para avanzar con el proceso?
+    npm install
+    npm test
 
-Debes comenzar a ver todos los videos, el material escrito y a hacer los ejercicios, siguiendo el orden postulado aquí en el curso. Una vez que hayas finalizado, podrás realizar el Henry Challenge.
+>Si ves los tests fallando, estás listo para comenzar, si no lee bien el output para identificar el error.
 
-Cualquier duda, nos puedes escribir a admisiones@soyhenry.com
-¡Muchos éxitos!
 
-## Clases de Apoyo
+### 2. RESOLVER EL CHALLENGE
 
-Para poder acompañarte en esta etapa, ponemos a disposición las “Clases de apoyo en vivo”. Estos son espacios donde los Henry Heros (HHs), es decir estudiantes avanzados de Henry, se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
+Tu tarea es completar el código en los archivos  
+ - `01.js` 
+ - `02.js` 
+ - `03.js` 
+ - `04.js` 
+ - `05.js` 
+ - `06-07-08.js` 
+ - `09.js` 
+ 
+ De tal forma que pasen la mayoría de los tests.
 
-Las clases son de lunes a viernes, por la tarde. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
 
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [calendario](/Calendario)
+### 3. ENTREGAR TU CHECKPOINT
 
-## Open House
+Correr por ultima vez los tests y verificar cuantos pasan. Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
+Saca un print de pantalla de tus tests.
+Luego, debes subir un commit a tu repo. Para hacerlo, debes ejecutar el siguiente comando:
 
-Te compartimos esta grabación del último Open House que hicimos en nuestro canal de Youtube. En este video podrás conocer más sobre Henry, la carrera y el proceso de admisión:
+    git add .
+    git commit -m 'checkpoint commit'
+    git push origin main
 
-<div class="iframeContainer">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_Hb0_v8SAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+Una vez finalizado, chequea:
+1. Que veas los cambios reflejados en el repo de la cuenta de `checkpoints-soyhenry` (entrando al link brindado anteriormente.)
+2.  Que no haya un require - solo debe haber codigo dentro de las funciones de cada ejercicio 
 
-## ¿Quieres conocer más sobre la carrera de Desarrollo Web Full Stack en Henry?
 
-En este video te explicamos todo lo que debes conocer:
+<img src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/26a0-fe0f@2x.png" style="float:left; width:35px; padding: 10px;" /> Atención: no debes realizar un commit después de la hora de entrega porque se anulara la totalidad del examen. 
+>Revisar la hora del entrega del examen en los emails que te llegaron. 
 
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/426051769" allow="autoplay; fullscreen"></iframe>
-</div>
+### ¿TENES ALGUN PROBLEMA / CONSULTA?
+
+1. Busca la solución en la "guía de errores comunes".
+
+2. Si no la encuentras, revisa el canal de #henry_challenge en Slack. Probablemente a algún compañero le paso algo similar y ya lo consulto.
+
+3. Si no encuentras la respuesta, puedes publicar un mensaje en dicho canal.
+
+> No se puede hacer consultas sobre la resolucion de los ejercicios.
+
+
+### GUIA DE ERRORES COMUNES
+
+Para identificar el error, vas a tener que leerlo en la consola.
+
+
+* "jest" no se reconoce como un comando externo o interno...:
+    1. Borrar la carpeta `node_modules` y el archivo `package-lock.json` e instalar nuevamente ( `npm install` ).
+    2. Si esto no funciona, instalar test con el comando `npm install jest`.
+
+
+* 1 failed, 1 total:
+    1. Tenes un error de sintaxis. Revisa el último ejercicio que hayas hecho, seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
+
+* Author identity unknown.  
+    1. Intenta ejecutar los siguientes comandos para configurar tu cuenta:
+        * git config --global user.name "Tu usuario de GitHub aca"
+        * git config --global user.email "Tu email aca"
+
+    2. Ingresa a [Github](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) y sigue las instrucciones para configurar tu token. 
+
+* La consola se tilda en `Runs`:
+    1. Revisa tu código, tenes un bucle infinito. Tenes que checkear la condición de corte de tus bucles.
+
