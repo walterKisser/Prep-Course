@@ -11,7 +11,7 @@ function soloStrings(array) {
   // soloStrings([1, 'Henry', 2, 'Toni']) debe retornar ['Henry', 'Toni']
 
   // Tu código aca:
- var array = [1, 'Henry', 2, 'Toni'];
+//var array = [1, 'Henry', 2, 'Toni'];
 var New_Array = [];
 var longitud = array.length;
 

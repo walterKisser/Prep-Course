@@ -19,14 +19,31 @@ function todos(fn) {
   //    return elem < 2;
   //  });
   // devuelve false.
-  Array.prototype.todos = function(fn){
+  Array.prototype.todos = function(callback){
          for(let i = 0; i < this.length; i++){
-           if(this[i] < 10) return false;
-           if(this[i] < 2) return true;
+           if(this[i] < 10){
+            return true;}
+            else{
+              if(this[i] < 2){
+            return i;}
+            if( this[i] > i.length ) {
+            return false;
+         }
          }
          }
    }
- 
+ /*Array.prototype.todos = function(fn) {
+for( var i = 0; i < fn.length; i++ ){
+if( fn[i] !== fn.length ) {
+return true;
+}else{
+if( fn[i] > fn.length ) {
+return false;
+}
+ }
+}
+ }*/
+}
 
 // No modifiques nada debajo de esta linea //
 

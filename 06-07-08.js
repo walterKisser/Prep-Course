@@ -45,16 +45,17 @@ function crearClaseProfesor() {
       // Escribe una función que retorne un arreglo con los cursos del profesor
       // Ej:
       // persona.getCursos() // retorna ['javascript 1', 'javascript 2'];
-      var mapper = ((curso)=>profesor.getCursos());
+      var mapper = ((curso)=>curso.nombre);
       var stored =this.cursos.map(mapper);
       return stored;
-    }
+    
+  }
 
     getCertificados() {
       // Escribe una función que retorne la cantidad de certificados que tiene un profesor
       // Ej:
       // persona.getCertificados() // retorna 3
-     return Math.max(certificados);
+     return this.certificados;
 
     }
 
